@@ -1,0 +1,14 @@
+﻿<Window x:Class="DrosoSleep.ImportDAMErrorMessage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DrosoSleep"
+        mc:Ignorable="d"
+        Title="Warning" Height="322" Width="429.6">
+    <Grid>
+        <Button Content="Exclude lines" HorizontalAlignment="Left" Margin="8,227,0,0" VerticalAlignment="Top" Width="188" FontSize="14" Height="28"/>
+        <Button Content="Cancel DAM import" HorizontalAlignment="Left" Margin="211,227,0,0" VerticalAlignment="Top" Width="197" FontSize="14" Height="28"/>
+
+    </Grid>
+</Window>

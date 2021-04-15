@@ -1,0 +1,42 @@
+C:\Users\User\source\repos\DrosoSleep\DrosoSleep\obj\Debug\DrosoSleep.csprojAssemblyReference.cache
+C:\Users\User\source\repos\DrosoSleep\DrosoSleep\obj\Debug\MainWindow.g.cs
+C:\Users\User\source\repos\DrosoSleep\DrosoSleep\obj\Debug\App.g.cs
+C:\Users\User\source\repos\DrosoSleep\DrosoSleep\obj\Debug\DrosoSleep_MarkupCompile.cache
+C:\Users\User\source\repos\DrosoSleep\DrosoSleep\obj\Debug\DrosoSleep_MarkupCompile.lref
+C:\Users\User\source\repos\DrosoSleep\DrosoSleep\bin\Debug\DrosoSleep.exe.config
+C:\Users\User\source\repos\DrosoSleep\DrosoSleep\bin\Debug\DrosoSleep.exe
+C:\Users\User\source\repos\DrosoSleep\DrosoSleep\bin\Debug\DrosoSleep.pdb
+C:\Users\User\source\repos\DrosoSleep\DrosoSleep\obj\Debug\MainWindow.baml
+C:\Users\User\source\repos\DrosoSleep\DrosoSleep\obj\Debug\DrosoSleep.g.resources
+C:\Users\User\source\repos\DrosoSleep\DrosoSleep\obj\Debug\DrosoSleep.Properties.Resources.resources
+C:\Users\User\source\repos\DrosoSleep\DrosoSleep\obj\Debug\DrosoSleep.csproj.GenerateResource.cache
+C:\Users\User\source\repos\DrosoSleep\DrosoSleep\obj\Debug\DrosoSleep.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\DrosoSleep\DrosoSleep\obj\Debug\DrosoSleep.exe
+C:\Users\User\source\repos\DrosoSleep\DrosoSleep\obj\Debug\DrosoSleep.pdb
+C:\Users\User\source\repos\DrosoSleep\DrosoSleep\obj\Debug\DL_DAM.g.cs
+C:\Users\User\source\repos\DrosoSleep\DrosoSleep\obj\Debug\DL_DAM.baml
+D:\Dropbox (Nyp)\GABI\Egyéb\DrosoSleep\DrosoSleep\DrosoSleep\bin\Debug\DrosoSleep.exe.config
+D:\Dropbox (Nyp)\GABI\Egyéb\DrosoSleep\DrosoSleep\DrosoSleep\bin\Debug\DrosoSleep.exe
+D:\Dropbox (Nyp)\GABI\Egyéb\DrosoSleep\DrosoSleep\DrosoSleep\bin\Debug\DrosoSleep.pdb
+D:\Dropbox (Nyp)\GABI\Egyéb\DrosoSleep\DrosoSleep\DrosoSleep\obj\Debug\DrosoSleep.csprojAssemblyReference.cache
+D:\Dropbox (Nyp)\GABI\Egyéb\DrosoSleep\DrosoSleep\DrosoSleep\obj\Debug\DL_DAM.g.cs
+D:\Dropbox (Nyp)\GABI\Egyéb\DrosoSleep\DrosoSleep\DrosoSleep\obj\Debug\MainWindow.g.cs
+D:\Dropbox (Nyp)\GABI\Egyéb\DrosoSleep\DrosoSleep\DrosoSleep\obj\Debug\App.g.cs
+D:\Dropbox (Nyp)\GABI\Egyéb\DrosoSleep\DrosoSleep\DrosoSleep\obj\Debug\DrosoSleep_MarkupCompile.cache
+D:\Dropbox (Nyp)\GABI\Egyéb\DrosoSleep\DrosoSleep\DrosoSleep\obj\Debug\DrosoSleep_MarkupCompile.lref
+D:\Dropbox (Nyp)\GABI\Egyéb\DrosoSleep\DrosoSleep\DrosoSleep\obj\Debug\DL_DAM.baml
+D:\Dropbox (Nyp)\GABI\Egyéb\DrosoSleep\DrosoSleep\DrosoSleep\obj\Debug\MainWindow.baml
+D:\Dropbox (Nyp)\GABI\Egyéb\DrosoSleep\DrosoSleep\DrosoSleep\obj\Debug\DrosoSleep.g.resources
+D:\Dropbox (Nyp)\GABI\Egyéb\DrosoSleep\DrosoSleep\DrosoSleep\obj\Debug\DrosoSleep.Properties.Resources.resources
+D:\Dropbox (Nyp)\GABI\Egyéb\DrosoSleep\DrosoSleep\DrosoSleep\obj\Debug\DrosoSleep.csproj.GenerateResource.cache
+D:\Dropbox (Nyp)\GABI\Egyéb\DrosoSleep\DrosoSleep\DrosoSleep\obj\Debug\DrosoSleep.csproj.CoreCompileInputs.cache
+D:\Dropbox (Nyp)\GABI\Egyéb\DrosoSleep\DrosoSleep\DrosoSleep\obj\Debug\DrosoSleep.exe
+D:\Dropbox (Nyp)\GABI\Egyéb\DrosoSleep\DrosoSleep\DrosoSleep\obj\Debug\DrosoSleep.pdb
+D:\Dropbox (Nyp)\GABI\Egyéb\DrosoSleep\DrosoSleep\DrosoSleep\obj\Debug\ImportDAMErrorMessage.g.cs
+D:\Dropbox (Nyp)\GABI\Egyéb\DrosoSleep\DrosoSleep\DrosoSleep\obj\Debug\ImportDAMErrorMessage.baml
+D:\Dropbox (Nyp)\GABI\Egyéb\DrosoSleep\DrosoSleep\DrosoSleep\obj\Debug\ChooseParameters.g.cs
+D:\Dropbox (Nyp)\GABI\Egyéb\DrosoSleep\DrosoSleep\DrosoSleep\obj\Debug\ChooseParameters.baml
+D:\Dropbox (Nyp)\GABI\Egyéb\DrosoSleep\DrosoSleep\DrosoSleep\obj\Debug\ExperimentSettings.g.cs
+D:\Dropbox (Nyp)\GABI\Egyéb\DrosoSleep\DrosoSleep\DrosoSleep\obj\Debug\ExperimentSettings.baml
+D:\Dropbox (Nyp)\GABI\Egyéb\DrosoSleep\DrosoSleep\DrosoSleep\obj\Debug\Analyse.g.cs
+D:\Dropbox (Nyp)\GABI\Egyéb\DrosoSleep\DrosoSleep\DrosoSleep\obj\Debug\Analyse.baml

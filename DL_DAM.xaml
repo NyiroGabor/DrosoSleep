@@ -1,0 +1,99 @@
+﻿<Window x:Class="DrosoSleep.DL_DAM"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DrosoSleep"
+        mc:Ignorable="d"
+        Title="DrosoSleep" Height="752.457" Width="1000" WindowStartupLocation="CenterScreen">
+    <Grid Background="#FF7F8CA5">
+        <TextBox x:Name="Box1" HorizontalAlignment="Left" Height="23" Margin="460,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" KeyUp="Navigate_ArrowKeys1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="16" IsEnabled="False" TextChanged="TextChangedInBOX1"/>
+        <TextBox x:Name="Box2" HorizontalAlignment="Left" Height="23" Margin="521,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" KeyUp="Navigate_ArrowKeys2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="16" IsEnabled="False" TextChanged="TextChangedInBOX2"/>
+        <TextBox x:Name="Box3" HorizontalAlignment="Left" Height="23" Margin="581,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" KeyUp="Navigate_ArrowKeys3" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="16" IsEnabled="False" TextChanged="TextChangedInBOX3"/>
+        <TextBox x:Name="Box4" HorizontalAlignment="Left" Height="23" Margin="642,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" KeyUp="Navigate_ArrowKeys4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="16" IsEnabled="False" TextChanged="TextChangedInBOX4"/>
+        <TextBox x:Name="Box5" HorizontalAlignment="Left" Height="23" Margin="703,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" KeyUp="Navigate_ArrowKeys5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="16" IsEnabled="False" TextChanged="TextChangedInBOX5"/>
+        <TextBox x:Name="Box6" HorizontalAlignment="Left" Height="23" Margin="763,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" KeyUp="Navigate_ArrowKeys6" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="16" IsEnabled="False" TextChanged="TextChangedInBOX6"/>
+        <TextBox x:Name="Box7" HorizontalAlignment="Left" Height="23" Margin="822,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" KeyUp="Navigate_ArrowKeys7" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="16" IsEnabled="False" TextChanged="TextChangedInBOX7"/>
+        <TextBox x:Name="Box8" HorizontalAlignment="Left" Height="23" Margin="881,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" KeyUp="Navigate_ArrowKeys8" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="16" IsEnabled="False" TextChanged="TextChangedInBOX8"/>
+        <TextBox x:Name="Box9" HorizontalAlignment="Left" Height="23" Margin="460,243,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" KeyUp="Navigate_ArrowKeys9" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="16" IsEnabled="False" TextChanged="TextChangedInBOX9"/>
+        <TextBox x:Name="Box10" HorizontalAlignment="Left" Height="23" Margin="521,243,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" KeyUp="Navigate_ArrowKeys10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="16" IsEnabled="False" TextChanged="TextChangedInBOX10"/>
+        <TextBox x:Name="Box11" HorizontalAlignment="Left" Height="23" Margin="581,243,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" KeyUp="Navigate_ArrowKeys11" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="16" IsEnabled="False" TextChanged="TextChangedInBOX11"/>
+        <TextBox x:Name="Box12" HorizontalAlignment="Left" Height="23" Margin="642,243,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" KeyUp="Navigate_ArrowKeys12" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="16" IsEnabled="False" TextChanged="TextChangedInBOX12"/>
+        <TextBox x:Name="Box13" HorizontalAlignment="Left" Height="23" Margin="703,243,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" KeyUp="Navigate_ArrowKeys13" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="16" IsEnabled="False" TextChanged="TextChangedInBOX13"/>
+        <TextBox x:Name="Box14" HorizontalAlignment="Left" Height="23" Margin="763,243,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" KeyUp="Navigate_ArrowKeys14" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="16" IsEnabled="False" TextChanged="TextChangedInBOX14"/>
+        <TextBox x:Name="Box15" HorizontalAlignment="Left" Height="23" Margin="822,243,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" KeyUp="Navigate_ArrowKeys15" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="16" IsEnabled="False" TextChanged="TextChangedInBOX15"/>
+        <TextBox x:Name="Box16" HorizontalAlignment="Left" Height="23" Margin="881,243,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" KeyUp="Navigate_ArrowKeys16" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="16" IsEnabled="False" TextChanged="TextChangedInBOX16"/>
+        <TextBox x:Name="Box17" HorizontalAlignment="Left" Height="23" Margin="460,302,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" KeyUp="Navigate_ArrowKeys17" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="16" IsEnabled="False" TextChanged="TextChangedInBOX17"/>
+        <TextBox x:Name="Box18" HorizontalAlignment="Left" Height="23" Margin="521,302,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" KeyUp="Navigate_ArrowKeys18" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="16" IsEnabled="False" TextChanged="TextChangedInBOX18"/>
+        <TextBox x:Name="Box19" HorizontalAlignment="Left" Height="23" Margin="581,302,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" KeyUp="Navigate_ArrowKeys19" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="16" IsEnabled="False" TextChanged="TextChangedInBOX19"/>
+        <TextBox x:Name="Box20" HorizontalAlignment="Left" Height="23" Margin="642,302,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" KeyUp="Navigate_ArrowKeys20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="16" IsEnabled="False" TextChanged="TextChangedInBOX20"/>
+        <TextBox x:Name="Box21" HorizontalAlignment="Left" Height="23" Margin="703,302,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" KeyUp="Navigate_ArrowKeys21" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="16" IsEnabled="False" TextChanged="TextChangedInBOX21"/>
+        <TextBox x:Name="Box22" HorizontalAlignment="Left" Height="23" Margin="763,302,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" KeyUp="Navigate_ArrowKeys22" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="16" IsEnabled="False" TextChanged="TextChangedInBOX22"/>
+        <TextBox x:Name="Box23" HorizontalAlignment="Left" Height="23" Margin="822,302,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" KeyUp="Navigate_ArrowKeys23" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="16" IsEnabled="False" TextChanged="TextChangedInBOX23"/>
+        <TextBox x:Name="Box24" HorizontalAlignment="Left" Height="23" Margin="881,302,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" KeyUp="Navigate_ArrowKeys24" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="16" IsEnabled="False" TextChanged="TextChangedInBOX24"/>
+        <TextBox x:Name="Box25" HorizontalAlignment="Left" Height="23" Margin="460,361,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" KeyUp="Navigate_ArrowKeys25" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="16" IsEnabled="False" TextChanged="TextChangedInBOX25"/>
+        <TextBox x:Name="Box26" HorizontalAlignment="Left" Height="23" Margin="521,361,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" KeyUp="Navigate_ArrowKeys26" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="16" IsEnabled="False" TextChanged="TextChangedInBOX26"/>
+        <TextBox x:Name="Box27" HorizontalAlignment="Left" Height="23" Margin="581,361,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" KeyUp="Navigate_ArrowKeys27" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="16" IsEnabled="False" TextChanged="TextChangedInBOX27"/>
+        <TextBox x:Name="Box28" HorizontalAlignment="Left" Height="23" Margin="642,361,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" KeyUp="Navigate_ArrowKeys28" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="16" IsEnabled="False" TextChanged="TextChangedInBOX28"/>
+        <TextBox x:Name="Box29" HorizontalAlignment="Left" Height="23" Margin="703,361,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" KeyUp="Navigate_ArrowKeys29" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="16" IsEnabled="False" TextChanged="TextChangedInBOX29"/>
+        <TextBox x:Name="Box30" HorizontalAlignment="Left" Height="23" Margin="763,361,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" KeyUp="Navigate_ArrowKeys30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="16" IsEnabled="False" TextChanged="TextChangedInBOX30"/>
+        <TextBox x:Name="Box31" HorizontalAlignment="Left" Height="23" Margin="822,361,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" KeyUp="Navigate_ArrowKeys31" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="16" IsEnabled="False" TextChanged="TextChangedInBOX31"/>
+        <TextBox x:Name="Box32" HorizontalAlignment="Left" Height="23" Margin="881,361,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" KeyUp="Navigate_ArrowKeys32" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="16" IsEnabled="False" TextChanged="TextChangedInBOX32"/>
+        <Label Content="Groups" HorizontalAlignment="Left" Margin="636,102,0,0" VerticalAlignment="Top" FontSize="36" Foreground="Black"/>
+        <Button Content="Import DAM file" HorizontalAlignment="Left" Margin="59,117,0,0" VerticalAlignment="Top" Width="173" FontSize="20" Height="38" Click="ImportDAM_Click"/>
+        <ListBox x:Name="ListOfDAMs" HorizontalAlignment="Left" Height="252" Margin="59,170,0,0" VerticalAlignment="Top" Width="359" FontSize="15" SelectionChanged="SelectionChangedForListOfDAMs" KeyUp="RemoveDelete_Key" GotFocus="FocusOnListOfDAMs"/>
+        <Button x:Name="SaveTemplateButton" Content="Save as template" HorizontalAlignment="Left" Margin="461,420,0,0" VerticalAlignment="Top" Width="235" FontSize="20" Height="54" RenderTransformOrigin="0.5,0.5" Click="SaveTemplate_Click" IsEnabled="False">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="0.262"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="0.395"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="LoadTemplateButton" Content="Load template" HorizontalAlignment="Left" Margin="703,422,0,0" VerticalAlignment="Top" Width="230" FontSize="20" Height="54" Click="LoadTemplate_Click" IsEnabled="False"/>
+        <Button Content="Experiment settings" HorizontalAlignment="Left" Margin="59,527,0,0" VerticalAlignment="Top" Width="430" FontSize="30" Height="68" Click="ExperimentSettings_Click"/>
+        <Button Content="Choose parameters" HorizontalAlignment="Left" Margin="509,527,0,0" VerticalAlignment="Top" Width="424" FontSize="30" Height="68" Click="ChooseParameters_Click"/>
+        <Button Content="ANALYSE SLEEP" HorizontalAlignment="Left" Margin="59,613,0,0" VerticalAlignment="Top" Width="874" FontSize="30" Height="68" BorderBrush="#FF767676" Background="#FF67FF6E" Click="AnalyseSleep_Click"/>
+        <Button Content="Remove DAM" HorizontalAlignment="Left" Margin="245,117,0,0" VerticalAlignment="Top" Width="173" FontSize="20" Height="38" Click="RemoveDAM_Click"/>
+        <Label Content="DAM Load" HorizontalAlignment="Left" Margin="383,15,0,0" VerticalAlignment="Top" FontSize="40"/>
+        <Button Content="?" HorizontalAlignment="Left" Margin="766,119,0,0" VerticalAlignment="Top" Width="38" FontSize="20" Click="Help_Click"/>
+        <Label x:Name="SavedLabel" Content="Press Enter to Apply" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="522,384,0,0" VerticalAlignment="Top" FontSize="20" Foreground="Firebrick" Width="353"/>
+        <Button Content="Clear all DAMs" HorizontalAlignment="Left" Margin="59,435,0,0" VerticalAlignment="Top" Width="359" FontSize="20" Height="38" Click="ClearAllDAMs_Click"/>
+        <Label Content="1" HorizontalAlignment="Left" Margin="475,158,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="2" HorizontalAlignment="Left" Margin="537,158,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="3" HorizontalAlignment="Left" Margin="596,158,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="4" HorizontalAlignment="Left" Margin="658,158,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="5" HorizontalAlignment="Left" Margin="719,158,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="6" HorizontalAlignment="Left" Margin="779,158,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="7" HorizontalAlignment="Left" Margin="838,158,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="8" HorizontalAlignment="Left" Margin="895,158,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="9" HorizontalAlignment="Left" Margin="475,217,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="10" HorizontalAlignment="Left" Margin="532,217,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="11" HorizontalAlignment="Left" Margin="591,217,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="12" HorizontalAlignment="Left" Margin="653,217,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="13" HorizontalAlignment="Left" Margin="714,217,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="14" HorizontalAlignment="Left" Margin="774,217,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="15" HorizontalAlignment="Left" Margin="833,217,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="16" HorizontalAlignment="Left" Margin="890,217,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="17" HorizontalAlignment="Left" Margin="471,275,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="18" HorizontalAlignment="Left" Margin="533,275,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="19" HorizontalAlignment="Left" Margin="592,275,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="20" HorizontalAlignment="Left" Margin="654,275,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="21" HorizontalAlignment="Left" Margin="715,275,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="22" HorizontalAlignment="Left" Margin="775,275,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="23" HorizontalAlignment="Left" Margin="834,275,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="24" HorizontalAlignment="Left" Margin="891,275,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="25" HorizontalAlignment="Left" Margin="472,333,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="26" HorizontalAlignment="Left" Margin="534,333,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="27" HorizontalAlignment="Left" Margin="593,333,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="28" HorizontalAlignment="Left" Margin="655,333,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="29" HorizontalAlignment="Left" Margin="716,333,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="30" HorizontalAlignment="Left" Margin="776,333,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="31" HorizontalAlignment="Left" Margin="835,333,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="32" HorizontalAlignment="Left" Margin="892,333,0,0" VerticalAlignment="Top" FontSize="16"/>
+
+
+    </Grid>
+</Window>

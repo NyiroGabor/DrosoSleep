@@ -1,0 +1,15 @@
+﻿<Window x:Class="DrosoSleep.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="DrosoSleep" Height="507.715" WindowStartupLocation="CenterScreen" Width="818.495">
+    <Grid Background="#FF7F8CA5">
+        <Label Content="DrosoSleep" HorizontalAlignment="Left" Margin="292,40,0,0" VerticalAlignment="Top" Width="214" Height="61" FontSize="36" FontWeight="Bold"/>
+        <Label Content="Start new experiment" HorizontalAlignment="Left" Height="43" Margin="48,188,0,0" VerticalAlignment="Top" Width="200" FontSize="20"/>
+        <Label Content="Open existing experiment" HorizontalAlignment="Left" Height="43" Margin="526,188,0,0" VerticalAlignment="Top" Width="241" FontSize="20"/>
+        <Button Content="Daily/Hourly period" HorizontalAlignment="Left" Margin="48,246,0,0" VerticalAlignment="Top" Width="200" Height="41" FontSize="20" Click="Button_Click"/>
+        <Button Content="Load experiment" HorizontalAlignment="Left" Margin="526,246,0,0" VerticalAlignment="Top" Width="241" Height="41" IsEnabled="False" FontSize="20"/>
+    </Grid>
+</Window>

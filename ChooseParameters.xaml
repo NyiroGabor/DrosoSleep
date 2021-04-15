@@ -1,0 +1,61 @@
+﻿<Window x:Class="DrosoSleep.ChooseParameters"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DrosoSleep"
+        mc:Ignorable="d"
+        Title="ChooseParameters" Height="636.996" Width="772.861" WindowStartupLocation="CenterScreen">
+    <Grid Background="#FF7F8CA5">
+        <Label Content="Choose Parameters" HorizontalAlignment="Left" Margin="252,10,0,0" VerticalAlignment="Top" FontSize="30"/>
+        <Button Content="Save" HorizontalAlignment="Left" Margin="30,547,0,0" VerticalAlignment="Top" Width="174" FontSize="20" Height="44" Click="Save_Click"/>
+        <Button Content="Cancel" HorizontalAlignment="Left" Margin="559,547,0,0" VerticalAlignment="Top" Width="174" FontSize="20" Height="44" Click="Cancel_Click"/>
+        <Label x:Name="TotalActivity_Label" Content="Total Activity:" HorizontalAlignment="Left" Margin="71,266,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <Label x:Name="LongestSleepBoutLength_Label" Content="Longest sleep bout length:" HorizontalAlignment="Left" Margin="550,128,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <Label x:Name="TotalSleep_Label" Content="Total sleep:" HorizontalAlignment="Left" Margin="75,128,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <Label x:Name="NumberOfSleepBouts_Label" Content="Number of sleep bouts:" HorizontalAlignment="Left" Margin="38,400,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <Label x:Name="AverageSleepBoutLength_Label" Content="Average sleep bout length:" HorizontalAlignment="Left" Margin="285,198,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <Label x:Name="AverageActivityBoutLength_Label" Content="Average activity bout length:" HorizontalAlignment="Left" Margin="280,332,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <Label x:Name="TotalActivityLevel_Label" Content="Total Activity level:" HorizontalAlignment="Left" Margin="583,266,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <Label x:Name="TotalInactivity_Label" Content="Total Inactivity:" HorizontalAlignment="Left" Margin="595,400,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <CheckBox x:Name="Total_Activity_Day" Content="Day" HorizontalAlignment="Left" Margin="98,301,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox x:Name="Total_Activity_Light" Content="Light" HorizontalAlignment="Left" Margin="98,330,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox x:Name="Total_Activity_Dark" Content="Dark" HorizontalAlignment="Left" Margin="98,360,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <ComboBox x:Name="Daily_or_Hourly" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="252,78,0,0" VerticalAlignment="Top" Width="264" Height="32" FontSize="20" SelectionChanged="Daily_or_Hourly_SelectionChanged">
+            <ComboBoxItem x:Name="ComboBox_Daily" Content="Daily"/>
+            <ComboBoxItem x:Name="ComboBox_Hourly" Content="Hourly"/>
+        </ComboBox>
+        <CheckBox x:Name="Total_Activity_Hourly" Content="Total activity" HorizontalAlignment="Left" Margin="137,168,0,0" VerticalAlignment="Top" FontSize="15" IsChecked="True"/>
+        <CheckBox x:Name="Total_Sleep_Hourly" Content="Total sleep" HorizontalAlignment="Left" Margin="137,222,0,0" VerticalAlignment="Top" FontSize="15" IsChecked="True"/>
+        <CheckBox x:Name="Number_Of_Sleep_Bouts_Hourly" Content="Number of sleep bouts" HorizontalAlignment="Left" Margin="137,277,0,0" VerticalAlignment="Top" FontSize="15" IsChecked="True"/>
+        <CheckBox x:Name="Average_Sleep_Bout_Length_Hourly" Content="Average sleep bout length" HorizontalAlignment="Left" Margin="137,334,0,0" VerticalAlignment="Top" FontSize="15" IsChecked="True"/>
+        <CheckBox x:Name="Average_Activity_Bout_Length_Hourly" Content="Average activity bout length" HorizontalAlignment="Left" Margin="137,393,0,0" VerticalAlignment="Top" FontSize="15" IsChecked="True"/>
+        <CheckBox x:Name="Total_Inactivity_Hourly" Content="Total inactivity" HorizontalAlignment="Left" Margin="453,168,0,0" VerticalAlignment="Top" FontSize="15" IsChecked="True"/>
+        <CheckBox x:Name="Total_Activity_Level_Hourly" Content="Total activity level" HorizontalAlignment="Left" Margin="453,222,0,0" VerticalAlignment="Top" FontSize="15" IsChecked="True"/>
+        <CheckBox x:Name="Average_Activity_Level_Hourly" Content="Average activity level" HorizontalAlignment="Left" Margin="453,277,0,0" VerticalAlignment="Top" FontSize="15" IsChecked="True"/>
+        <CheckBox x:Name="Longest_Sleep_Bout_Length_Day" Content="Day" HorizontalAlignment="Left" Margin="625,163,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox x:Name="Longest_Sleep_Bout_Length_Light" Content="Light" HorizontalAlignment="Left" Margin="625,192,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox x:Name="Longest_Sleep_Bout_Length_Dark" Content="Dark" HorizontalAlignment="Left" Margin="625,222,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox x:Name="Total_Sleep_Day" Content="Day" HorizontalAlignment="Left" Margin="98,163,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox x:Name="Total_Sleep_Light" Content="Light" HorizontalAlignment="Left" Margin="98,192,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox x:Name="Total_Sleep_Dark" Content="Dark" HorizontalAlignment="Left" Margin="98,222,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox x:Name="Average_Sleep_Bout_Length_Day" Content="Day" HorizontalAlignment="Left" Margin="362,233,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox x:Name="Average_Sleep_Bout_Length_Light" Content="Light" HorizontalAlignment="Left" Margin="362,262,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox x:Name="Average_Sleep_Bout_Length_Dark" Content="Dark" HorizontalAlignment="Left" Margin="362,292,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox x:Name="Total_Activity_Level_Day" Content="Day" HorizontalAlignment="Left" Margin="625,301,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox x:Name="Total_Activity_Level_Light" Content="Light" HorizontalAlignment="Left" Margin="625,330,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox x:Name="Total_Activity_Level_Dark" Content="Dark" HorizontalAlignment="Left" Margin="625,360,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox x:Name="Number_Of_Sleep_Bouts_Day" Content="Day" HorizontalAlignment="Left" Margin="98,436,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox x:Name="Number_Of_Sleep_Bouts_Light" Content="Light" HorizontalAlignment="Left" Margin="98,465,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox x:Name="Number_Of_Sleep_Bouts_Dark" Content="Dark" HorizontalAlignment="Left" Margin="98,495,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox x:Name="Average_Activity_Bout_Length_Day" Content="Day" HorizontalAlignment="Left" Margin="362,368,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox x:Name="Average_Activity_Bout_Length_Light" Content="Light" HorizontalAlignment="Left" Margin="362,397,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox x:Name="Average_Activity_Bout_Length_Dark" Content="Dark" HorizontalAlignment="Left" Margin="362,427,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox x:Name="Total_Inactivity_Day" Content="Day" HorizontalAlignment="Left" Margin="625,436,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox x:Name="Total_Inactivity_Light" Content="Light" HorizontalAlignment="Left" Margin="625,465,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox x:Name="Total_Inactivity_Dark" Content="Dark" HorizontalAlignment="Left" Margin="625,495,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <Button Content="Select All" HorizontalAlignment="Left" Margin="251,547,0,0" VerticalAlignment="Top" Width="130" FontSize="17" Height="36" Click="SelectAll_Click"/>
+        <Button Content="Clear All" HorizontalAlignment="Left" Margin="381,547,0,0" VerticalAlignment="Top" Width="130" FontSize="17" Height="36" Click="ClearAll_Click"/>
+
+    </Grid>
+</Window>
